@@ -10,7 +10,7 @@ private:
     string *array;
     size_t tam;
     size_t cont;
-    const static size_t Max=4;
+    const static size_t Max=5;
     void expancion();
     
 public:

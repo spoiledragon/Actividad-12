@@ -15,7 +15,8 @@ int main(){
         dinamico.insertafin(wow);
         }
         cout<<endl<<"aqui insertaremos al inicio"<<endl;
-        dinamico.insertaini("x");
+        dinamico.insertaini("elemento nuevo 1");
+        dinamico.insertaini("elemento nuevo 2");
 
         //para imprimir
         for (size_t i = 0; i < dinamico.size(); i++)
