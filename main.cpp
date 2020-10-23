@@ -14,6 +14,10 @@ int main(){
         wow=wow+to_string(i+1);
         dinamico.insertafin(wow);
         }
+        for (size_t i = 0; i < dinamico.size(); i++)
+        {
+            cout<<dinamico[i]<<endl;
+        }
         cout<<endl<<"aqui insertaremos al inicio"<<endl;
         dinamico.insertaini("elemento nuevo 1");
         dinamico.insertaini("elemento nuevo 2");
